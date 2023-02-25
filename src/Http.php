@@ -1,10 +1,10 @@
 <?php
 
-namespace Hanson\Foundation;
+namespace WishCloud\Foundation;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\HandlerStack;
-use Hanson\Foundation\Exception\HttpException;
+use WishCloud\Foundation\Exception\HttpException;
 use Psr\Http\Message\ResponseInterface;
 
 /**
@@ -52,6 +52,9 @@ class Http
      */
     public static function setDefaultOptions($defaults = [])
     {
+        if(!isset($defaults['curl'])){
+            $defaults['curl'] = [CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4];
+        }
         self::$defaults = $defaults;
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Foundation;
+namespace WishCloud\Foundation;
 
 use Psr\Http\Message\RequestInterface;
 

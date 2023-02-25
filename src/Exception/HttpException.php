@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Hanson\Foundation\Exception;
+namespace WishCloud\Foundation\Exception;
 
 use Exception;
 

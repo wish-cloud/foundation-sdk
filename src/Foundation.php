@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Hanson\Foundation;
+namespace WishCloud\Foundation;
 
 
 use Doctrine\Common\Cache\Cache;
@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * Class Foundation
  * @property-read Http $http
- * @package Hanson\Foundation
+ * @package WishCloud\Foundation
  */
 class Foundation extends Container
 {

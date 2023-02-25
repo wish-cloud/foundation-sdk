@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Foundation;
+namespace WishCloud\Foundation;
 
 use GuzzleHttp\Handler\MockHandler;
 use PHPUnit\Framework\TestCase;
@@ -16,4 +16,3 @@ class HttpTest extends TestCase
         var_dump($stack);
     }
 }
-

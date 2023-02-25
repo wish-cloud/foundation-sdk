@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Foundation;
+namespace WishCloud\Foundation;
 
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\NullHandler;
